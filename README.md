@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Important Note from Iggi
+
+The buttons kinda work, you have to press the left side until number of likes appears then the right to delete one like.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
