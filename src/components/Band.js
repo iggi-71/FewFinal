@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom'
 import './Band.css'
-
+import Like from './Like';
 
 function Band(props) {
     const { name, formed, origin, fans, id } = props
@@ -23,6 +23,9 @@ function Band(props) {
                 </div>
                 <div>
                     <p>fans: {fans}</p>
+                </div>
+                <div>
+                    <Like />
                 </div>
             </div>
         </BrowserRouter>
